@@ -1,0 +1,20 @@
+Textbook chapter 7
+DSP theroy for distortion 
+effets that are classified as overdrive, distortion or fuzz are all non-linear effects
+They can be described by a quadratic curve relating output sample y[n] to input sample x[n]
+    example :
+        f(x) = 2x             , 0 <= x <= 1/3
+        f(x) = 1-(2-3x)^2 / 3 , 1/3 <= x <= 2/3
+        f(x) = 1              , 2/3 <= x <= 1
+this is showing 
+    if an input samples magnitude is less than 1/3 there effect acts linearly
+    if an input samples magnitude is more than 1/3 but less than 2/3 effects acts non-linearly until clipping occurs
+    if an input samples magnitude is more than 2/3 the output dosent change
+
+Clipping occurs when a signal exceeds number of bits in an analog to digital or digital to analog converter
+meaning that an increase in input dosent produce further output
+g
+
+
+
+        

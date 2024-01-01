@@ -1,0 +1,7 @@
+-distortion effects produce either hard clipping or soft clipping
+-clipping prevents issues with the Nyquist limit and aliasing. The act of chopping off the top of the waveform can also be used to make a cool sounding effect
+-soft clipping: smoother, warmer sound
+-hard clipping: bright, harsh, buzzy sound
+-distortion can be on a spectrum of soft to hard clipping
+-input gain changes how the effect sounds by multiplying the input signal before it gets checked by the clipping threshold (greater multiplyer = more clipping distortion)
+-hard clipping is more common while soft clipping you have to aritificially create using a characteristic curve

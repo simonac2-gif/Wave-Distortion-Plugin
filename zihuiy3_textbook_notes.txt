@@ -1,0 +1,13 @@
+Distortion: - effects to modify sounds from smooth, sustained tones to harsh, grungy effects. 
+            - distortion effects are nonlinear for some input signals (ex. equation 7.2 on pg.168)
+            - the characteristic curve is a mathematical function defining distortion effects. It can be used to produce different degrees of distortion. Soft clipping and hard clipping are two common forms, with soft clipping producing a smoother, warmer sound, and hard clipping producing a bright, harsh sound.
+            - input gain also affects the amount of distortion
+
+Harmonic distortion: uses harmonics (multiples) of the fundamental frequency in the output signal.
+Intermodulation distortion: when multiple frequency components in the input signal produce non-harmonic sum and difference frequencies.
+- Asymmetrical functions can create both even and odd harmonics.
+- The amplitude of distortion products is influenced by the degree of nonlinearity in the characteristic curve used.
+- Fuzz effects, which has high nonlinearity, produce significant harmonic and intermodulation distortion.
+- Choosing the right type of distortion effect involves balancing harmonic and intermodulation distortion qualities for a specific musical application.
+
+The code example at pg. 193-194 provides a basic framework for implementing distortion effects with different characteristic curves.
